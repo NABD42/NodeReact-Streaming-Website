@@ -1,0 +1,144 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.header{
+    display: grid;
+    position: absolute;
+    place-items: center;
+    grid-template-columns: 1fr 2fr;
+    top: 0;
+    z-index: 999;
+}
+
+.header img{
+    width: 100px;
+    height: 75px;
+}
+
+
+.login-box{
+    background: url("https://cdn.worldvectorlogo.com/logos/microsoft-stream.svg") no-repeat;
+    background-position: center bottom;
+    background-position-y: -300px;
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon img{
+    width: 70%;
+    margin-bottom: 16px;
+}
+
+.textbox{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    border-radius: 40px;
+    padding: 12px 8px;
+    border: none;
+    overflow: hidden;
+    margin: 0 0 16px 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+    width: 95%;
+    margin: 0 8px;
+    color: #fff;
+
+}
+
+.textbox input::placeholder{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.forgot p{
+    color: darkgray;
+    font-size: 14px;
+    text-align: center;
+    margin: -4px 4px 16px 4p;
+}
+
+.button{
+    width: 100%;
+    border-radius: 40px;
+    padding: 12px 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    float: center;
+    color: white;
+    background: rgb(251,94,141);
+    background: radial-gradient(circle, rgba(251,94,141,1) 0%, rgba(255,85,140,1) 100%);
+    
+    
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover{
+    background: rgb(251,94,141);
+    background: radial-gradient(circle, rgb(252, 108, 151) 0%, rgb(255, 108, 154) 100%);
+}
+
+.button:active{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    transform: translateY(4px);
+}
+
+.signup p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.signup span a {
+    color: black;
+    
+}
+
+span a {
+    text-decoration: underline;
+}
