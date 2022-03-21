@@ -29,24 +29,8 @@
     height: 75px;
 }
 
-h2{
-    margin-top: 3vh;
-    padding-bottom: 4vh;
-}
 
-p{
-    display: grid;
-    font-size: 16px;
-    margin-bottom: 4vh;
-    font-weight: 400;
-}
-
-.textCentering{
-    display: flex;
-    justify-content: center;
-}
-
-.register-box{
+.login-box{
     background: url("https://cdn.worldvectorlogo.com/logos/microsoft-stream.svg") no-repeat;
     background-position: center bottom;
     background-position-y: -300px;
@@ -62,10 +46,6 @@ p{
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.wordFree{
-    color: rgb(247, 53, 111);
-}
-
 .icon{
     text-align: center;
 }
@@ -75,7 +55,7 @@ p{
     margin-bottom: 16px;
 }
 
-.registertextbox{
+.textbox{
     background-color: rgba(255, 255, 255, 0.2);
     width: 100%;
     border-radius: 40px;
@@ -88,19 +68,20 @@ p{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
 }
 
-.registertextbox input{
+.textbox input{
     border: none;
     outline: none;
     background: none;
     font-size: 16px;
     font-weight: 500;
     float: left;
-    width: 100%;
+    width: 95%;
     margin: 0 8px;
     color: #fff;
+
 }
 
-.registertextbox input::placeholder{
+.textbox input::placeholder{
     color: #fff;
 }
 
@@ -126,7 +107,7 @@ a{
     cursor: pointer;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 90px;
+    margin-top: 0px;
     margin-bottom: 20px;
     float: center;
     color: white;
@@ -147,13 +128,14 @@ a{
     transform: translateY(4px);
 }
 
-.signup p{
+.loginbtn p{
     color: black;
     font-size: 15px;
     text-align: center;
+    margin-top: 32px;
 }
 
-.signup span a {
+.loginbtn span a {
     color: black;
     
 }
