@@ -3,7 +3,7 @@ import "./register.scss"
 
 export default function Register() {
   return (
-    <div className="container">
+    <div className="registercontainer">
         <div className="header">
             <img className="StreamingCompletVF" src="https://cdn.worldvectorlogo.com/logos/microsoft-stream.svg" alt="" />
             <h1>StreamingCompletVF</h1>
@@ -21,7 +21,7 @@ export default function Register() {
                 <input type="password" placeholder="mot de passe"/>
             </div>
             <div>
-                <input type="button" className="button" value={"Inscription"}/>
+                <input type="button" className="buttonregister" value={"Inscription"}/>
             </div>
             <div className="signup">
                 <p>Vous avez déjà un compte? <span>

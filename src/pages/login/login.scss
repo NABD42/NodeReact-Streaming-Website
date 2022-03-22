@@ -1,4 +1,4 @@
-.container{
+.logincontainer{
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -46,11 +46,11 @@
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.icon{
+.usericon{
     text-align: center;
 }
 
-.icon img{
+.usericon img{
     width: 70%;
     margin-bottom: 16px;
 }
@@ -96,7 +96,7 @@ a{
     margin: -4px 4px 16px 4p;
 }
 
-.button{
+.buttonlogin{
     width: 100%;
     border-radius: 40px;
     padding: 12px 8px;
@@ -118,12 +118,12 @@ a{
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.button:hover{
+.buttonlogin:hover{
     background: rgb(251,94,141);
     background: radial-gradient(circle, rgb(252, 108, 151) 0%, rgb(255, 108, 154) 100%);
 }
 
-.button:active{
+.buttonlogin:active{
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
     transform: translateY(4px);
 }
@@ -132,7 +132,6 @@ a{
     color: black;
     font-size: 15px;
     text-align: center;
-    margin-top: 32px;
 }
 
 .loginbtn span a {

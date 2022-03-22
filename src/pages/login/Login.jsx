@@ -3,13 +3,13 @@ import "./login.scss"
 
 export default function Login() {
   return (
-    <div className="container">
+    <div className="registercontainer">
         <div className="header">
             <img className="StreamingCompletVF" src="https://cdn.worldvectorlogo.com/logos/microsoft-stream.svg" alt="" />
             <h1>StreamingCompletVF</h1>
         </div>
         <div className="login-box">
-            <div className="icon">
+            <div className="usericon">
                 <a href="#"><img src={"https://icons-for-free.com/iconfiles/png/512/person+profile+user+icon-1320184018411209468.png"} alt="" /></a>
             </div>
             <div className="textbox">
@@ -24,7 +24,7 @@ export default function Login() {
                 </a>
             </div>
             <div>
-                <input type="button" className="button" value={"Connexion"}/>
+                <input type="button" className="buttonlogin" value={"Connexion"}/>
             </div>
             <div className="loginbtn">
                 <p>Vous n'avez pas de compte ? <span>

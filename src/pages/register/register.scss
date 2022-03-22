@@ -1,4 +1,4 @@
-.container{
+.registercontainer{
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -31,13 +31,14 @@
 
 h2{
     margin-top: 3vh;
-    padding-bottom: 4vh;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 p{
     display: grid;
     font-size: 16px;
-    margin-bottom: 4vh;
+    margin-bottom: 10vh;
     font-weight: 400;
 }
 
@@ -64,15 +65,6 @@ p{
 
 .wordFree{
     color: rgb(247, 53, 111);
-}
-
-.icon{
-    text-align: center;
-}
-
-.icon img{
-    width: 70%;
-    margin-bottom: 16px;
 }
 
 .registertextbox{
@@ -115,7 +107,7 @@ a{
     margin: -4px 4px 16px 4p;
 }
 
-.button{
+.buttonregister{
     width: 100%;
     border-radius: 40px;
     padding: 12px 8px;
@@ -137,12 +129,12 @@ a{
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.button:hover{
+.buttonregister:hover{
     background: rgb(251,94,141);
     background: radial-gradient(circle, rgb(252, 108, 151) 0%, rgb(255, 108, 154) 100%);
 }
 
-.button:active{
+.buttonregister:active{
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
     transform: translateY(4px);
 }
