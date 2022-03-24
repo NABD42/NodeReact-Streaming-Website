@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ArrowDropDown, LaptopWindows, Notifications, Search } from "@material-ui/icons"
 import { useState } from "react";
 import "./navbar.scss"
@@ -16,9 +17,19 @@ const Navbar = () => {
             <div className="container">
                 <div className="left">
                     <img src="https://cdn.worldvectorlogo.com/logos/microsoft-stream.svg" alt="streaming complet entier logo" />
+                    
+                    <Link to="/" className="link">
                     <span>Accueil</span>
-                    <span>Series</span>
+                    </Link>
+
+                    <Link to="series" className="link">
+                    <span>Séries</span>
+                    </Link>
+
+                    <Link to="movies" className="link">
                     <span>Films</span>
+                    </Link>
+                    
                     <span>Nouveautés et Populaires</span>
                     <span>Ma Liste</span>
                 </div>

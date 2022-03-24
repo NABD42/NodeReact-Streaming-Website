@@ -10,7 +10,7 @@ export default function Register() {
         </div>
         <div className="register-box">
             <h2>Inscrivez-vous <span className="wordFree">gratuitement !</span></h2>
-            <p>Créez vous un compte et profiter de toutes les <span className="textCentering">exclusivités sans pub et en illimité.</span></p>
+            <p>Créez vous un compte et profiter de toutes les <span className="textCentering">exclusivités gratuitement et en illimité.</span></p>
             <div className="registertextbox">
                 <input type="text" placeholder="nom d'utilisateur" required/>
             </div>
