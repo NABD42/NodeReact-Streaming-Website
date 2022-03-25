@@ -34,6 +34,12 @@ const Navbar = () => {
                     <span>Ma Liste</span>
                 </div>
                 <div className="right">
+                    <Link to="login" className="link">
+                        <span className="homeBtn">Connexion</span>
+                    </Link>
+                    <Link to="register" className="link">
+                        <span className="homeBtn">S'inscrire</span>
+                    </Link>
                     <Search className="icon"/>
                     <span>VOSTFR</span>
                     <Notifications className="icon"/>

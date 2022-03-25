@@ -37,6 +37,10 @@
         display: flex;
         align-items: center;
 
+        .homeBtn{
+            margin-right: 2em;
+        }
+
         .icon{
             margin: 0 15px;
         }
@@ -62,6 +66,8 @@
                 padding: 10px;
                 cursor: pointer;
             }
+
+            
 
             &:hover{
                 .options{
